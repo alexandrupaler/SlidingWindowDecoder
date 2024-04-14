@@ -1,3 +1,4 @@
+# distutils: language = c++
 #cython: language_level=3, boundscheck=False, wraparound=False, initializedcheck=False, cdivision=True
 
 import numpy as np

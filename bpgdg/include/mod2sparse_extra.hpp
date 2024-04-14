@@ -1,7 +1,7 @@
 #ifndef MOD2SPARSE_EXTRA
 #define MOD2SPARSE_EXTRA
 extern "C" {
-#include "mod2sparse.h"
+#include "mod2sparse.hpp"
 }
 char* decimal_to_binary_reverse(int n, int K);
 

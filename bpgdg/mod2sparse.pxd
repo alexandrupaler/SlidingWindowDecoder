@@ -5,7 +5,7 @@ cimport numpy as np
 
 from .c_util cimport numpy2double, numpy2char, char2numpy, double2numpy
 
-cdef extern from "mod2sparse.h":
+cdef extern from "mod2sparse.hpp":
     
     ctypedef struct mod2entry:
         int row, col, sgn

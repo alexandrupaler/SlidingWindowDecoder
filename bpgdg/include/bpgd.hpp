@@ -1,7 +1,7 @@
 #ifndef BPGD_HPP
 #define BPGD_HPP
 extern "C" {
-#include "mod2sparse.h"
+#include "mod2sparse.hpp"
 }
 #include <thread>
 #include <vector>
